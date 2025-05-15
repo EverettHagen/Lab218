@@ -3,12 +3,6 @@
 - Make sure you are using the correct plot and statstics type
 - If you have any issues, the solution maybe be found within the CAEN & Janus Cheat Sheet
 
-# Testing for Grounding Issues
-1. Set up whatever experiment you are going to run 
-2. Go into AcqMode and set the Bunch Trigger Source to PTRG
-3. Find Periodic Trigger Period on the same page and set it to 1 ms
-3. In Spectroscopy set Pedestal Position to >100, in order to see the full pedestal. 
-4. Let the program run for a minute or two, keep in mind a disconnected channel will have an RMS around 6
 # Cosmics
 
 ## Single SiPMs
@@ -27,3 +21,10 @@
 1. Ensure the waveform generator is set up correctly 
 2. Make sure the waveform generator is connected to the CAEN unit
 3. Set the Bunch Trigger Source in AcqMode to the corresponding input channel on the CAEN unit 
+
+# Testing for Grounding Issues
+1. Set up whatever experiment you are going to run 
+2. Go into AcqMode and set the Bunch Trigger Source to PTRG
+3. Find Periodic Trigger Period on the same page and set it to 1 ms
+3. In Spectroscopy set Pedestal Position to >100, in order to see the full pedestal. 
+4. Let the program run for a minute or two, keep in mind a disconnected channel will have an RMS around 6
