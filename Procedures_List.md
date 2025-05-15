@@ -1,5 +1,6 @@
 # Versitile Tips & Tricks
 - A helpful note for all procedures is to first go to the AcqMode page, find the Channel Mask section and ensure all channels that you are not using are disabled.
+- Make sure you are using the correct plot and statstics type
 - If you have any issues, the solution maybe be found within the CAEN & Janus Cheat Sheet
 
 # Testing for Grounding Issues
@@ -21,3 +22,8 @@
 3. Ensure all boards within the stack are properly connected. 
 4. In AcqMode, set Bunch Trigger Source to TLOGIC. In Trigger Logic within the same page set it to OR32_AND2.
 5. In Discr page, find the T-Discr mask and disable every channel expect for the channels corresponding to the top and bottom boards.
+
+# SPS
+1. Ensure the waveform generator is set up correctly 
+2. Make sure the waveform generator is connected to the CAEN unit
+3. Set the Bunch Trigger Source in AcqMode to the corresponding input channel on the CAEN unit 
