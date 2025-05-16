@@ -3,6 +3,9 @@
 - Make sure you are using the correct plot and statstics type
 - If you have any issues, the solution maybe be found within the CAEN & Janus Cheat Sheet
 
+# Staircase Plot
+1. Press the botton the looks like a staircase and run it.
+
 # Cosmics
 
 ## Single SiPMs
